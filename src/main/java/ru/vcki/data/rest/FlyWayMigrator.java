@@ -1,6 +1,7 @@
 package ru.vcki.data.rest;
 
 import org.flywaydb.core.Flyway;
+import org.springframework.data.domain.ExampleMatcher;
 
 import javax.sql.DataSource;
 

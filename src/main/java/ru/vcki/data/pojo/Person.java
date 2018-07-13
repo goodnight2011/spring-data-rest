@@ -10,7 +10,7 @@ import javax.persistence.*;
 public class Person {
 
     @Id
-    @Column(name="id")
+    @Column(name = "id")
     @SequenceGenerator(name = "person_gen", sequenceName = "person_pk_seq", initialValue = 1, allocationSize = 1)
     @GeneratedValue(generator = "person_gen")
     private Long id;
@@ -20,4 +20,5 @@ public class Person {
 
     @Column(name = "last_name")
     private String lastName;
+
 }
